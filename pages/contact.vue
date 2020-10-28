@@ -48,7 +48,7 @@
           I'm always eager to work on new projects in my free time.
           Let's work together!
         </p>
-        <form class="flex flex-col" name="contact" method="POST" data-netlify="true">
+        <form class="flex flex-col" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <input
             class="bg-opacity-75 rounded border text-gray-900 border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
             placeholder="Name"
