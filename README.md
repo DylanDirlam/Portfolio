@@ -1,20 +1,5 @@
-# portfolio
+# Dylan Dirlam - Personal Site
 
-## Build Setup
+Welcome to my personal site repository. I built this project using Nuxt.js (Vue), and Tailwind CSS and it's deployed through Netlify.
 
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+<a href="https://dirlam.dev" target="_blank">![Portfolio Image](https://raw.githubusercontent.com/DylanDirlam/Portfolio/main/assets/projects/portfolio.jpg)</a>
