@@ -24,10 +24,10 @@
         data-aos="fade-left"
         data-aos-delay="200"
       >
-        I'm a Software Developer with a passion for building
-        modern, detailed, intuitive websites and web apps to power
-        businesses. I have a strong ability to adapt to new
-        environments and pick up languages quickly.
+        I'm a Software Developer with a passion for building modern,
+        detailed, intuitive websites and web apps to power businesses.
+        I have a strong ability to adapt to new environments and pick
+        up languages quickly.
       </p>
       <p class="py-2" data-aos="fade-left" data-aos-delay="250">
         Working at

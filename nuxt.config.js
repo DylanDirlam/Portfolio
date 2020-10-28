@@ -8,13 +8,20 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Dylan Dirlam - Software Developer',
+    htmlAttrs: {
+      lang: 'en-US',
+    },
     meta: [
       { charset: 'utf-8' },
       {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1',
       },
-      { hid: 'description', name: 'description', content: `Hi, I'm Dylan Dirlam. I'm a Software Developer with a passion for building modern, detailed, and intuitive web apps to power businesses.` },
+      {
+        hid: 'description',
+        name: 'description',
+        content: `Hi, I'm Dylan Dirlam. I'm a Software Developer with a passion for building modern, detailed, and intuitive web apps to power businesses.`,
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

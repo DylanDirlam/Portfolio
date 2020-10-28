@@ -12,6 +12,8 @@
       >
         <a
           href="https://github.com/DylanDirlam"
+          aria-label="Github link"
+          rel="noreferrer"
           target="_blank"
           class="text-gray-300 hover:text-secondary zoom"
         >
@@ -30,6 +32,8 @@
         </a>
         <a
           href="https://twitter.com/DylanDirlam"
+          aria-label="Twitter link"
+          rel="noreferrer"
           target="_blank"
           class="text-gray-300 hover:text-secondary zoom"
         >
@@ -48,6 +52,8 @@
         </a>
         <a
           href="https://www.linkedin.com/in/dylandirlam/"
+          aria-label="Linkedin link"
+          rel="noreferrer"
           target="_blank"
           class="text-gray-300 hover:text-secondary zoom"
         >

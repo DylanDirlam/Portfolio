@@ -1,16 +1,16 @@
 <template>
   <section class="text-white">
     <div
-      class="container px-5 mt-12 mx-auto flex sm:flex-no-wrap flex-wrap"
+      class="container px-5 mt-4 md:mt-12 mx-auto flex md:flex-no-wrap flex-wrap"
     >
       <div
-        class="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
+        class="w-full md:w-1/2 lg:w-2/3 rounded-lg overflow-hidden sm:mr-10 md:p-10 flex items-end justify-start relative"
         data-aos="fade-right"
       >
         <iframe
           width="100%"
           height="100%"
-          class="absolute inset-0"
+          class="absolute inset-0 hidden md:block"
           frameborder="0"
           title="map"
           marginheight="0"
@@ -20,7 +20,7 @@
           style="filter: grayscale(1) contrast(1.2) opacity(0.8)"
         ></iframe>
         <div
-          class="bg-gradient-to-br from-blue-800 to-teal-600 rounded-xl relative flex flex-row p-4"
+          class="w-full md:w-auto bg-gradient-to-br from-blue-800 to-teal-600 rounded-xl relative flex flex-row p-4"
         >
           <div class="w-1/2 mx-2">
             <h2 class="text-white">Email</h2>
@@ -30,14 +30,16 @@
           </div>
           <div class="w-1/2 mx-2">
             <h2 class="text-white">Phone</h2>
-            <a class="text-sm" href="tel:6072815231"
+            <a
+              class="text-sm whitespace-no-wrap"
+              href="tel:6072815231"
               >(607) 281-5231</a
             >
           </div>
         </div>
       </div>
       <div
-        class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+        class="w-full md:w-1/2 lg:w-1/3 flex flex-col md:ml-auto md:py-8 md:mt-0"
         data-aos="fade-left"
         data-aos-delay="200"
       >
@@ -48,7 +50,13 @@
           I'm always eager to work on new projects in my free time.
           Let's work together!
         </p>
-        <form class="flex flex-col" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <form
+          class="flex flex-col"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+        >
           <input type="hidden" name="form-name" value="contact" />
           <input
             class="bg-opacity-75 rounded border text-gray-900 border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
