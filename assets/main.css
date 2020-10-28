@@ -1,0 +1,29 @@
+.page-enter-active {
+  transition: opacity 0s;
+}
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+.bg-opacity-95 {
+  --bg-opacity: 0.95 !important;
+}
+
+.v-lazy-image {
+  filter: blur(10px);
+  transition: filter 0.7s;
+}
+.v-lazy-image-loaded {
+  filter: blur(0);
+}
