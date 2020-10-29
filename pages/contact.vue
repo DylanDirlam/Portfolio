@@ -58,24 +58,27 @@
           netlify-honeypot="bot-field"
         >
           <input type="hidden" name="form-name" value="contact" />
+          <label for="Name">Name</label>
           <input
             class="bg-opacity-75 rounded border text-gray-900 border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
-            placeholder="Name"
+            id="Name"
             name="Name"
             type="text"
             required
           />
+          <label for="Email">Email</label>
           <input
             class="bg-opacity-75 rounded border text-gray-900 border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
-            placeholder="Email"
+            id="Email"
             name="Email"
             type="email"
             required
           />
+          <label for="Message">Message</label>
           <textarea
             class="bg-opacity-75 rounded border text-gray-900 border-gray-400 focus:outline-none h-32 focus:border-indigo-500 text-base px-4 py-2 mb-4 resize-none"
+            id="Message"
             name="Message"
-            placeholder="Message"
             required
           ></textarea>
           <button

@@ -67,6 +67,7 @@
             email, and phone calls to employees using
             <a
               href="https://twilio.com"
+              rel="noreferrer"
               target="_blank"
               class="text-blue-400 hover:underline hover:text-blue-600"
               >Twilio API</a
@@ -146,6 +147,7 @@
             Mobile-responsive site built with
             <a
               href="https://getbootstrap.com/"
+              rel="noreferrer"
               target="_blank"
               class="text-blue-400 hover:underline hover:text-blue-600"
               >Bootstrap</a
@@ -187,6 +189,7 @@
             Mobile-responsive site built with
             <a
               href="https://getbootstrap.com/"
+              rel="noreferrer"
               target="_blank"
               class="text-blue-400 hover:underline hover:text-blue-600"
               >Bootstrap</a

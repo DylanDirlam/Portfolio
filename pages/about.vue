@@ -3,6 +3,8 @@
     <div class="w-4/5 mx-auto my-6 md:my-12 text-white">
       <img
         src="~/assets/boat.jpg"
+        width="800"
+        height="969"
         alt="Picture of me on a boat"
         class="w-full h-64 object-cover object-top md:h-auto md:w-2/5 float-left rounded-2xl shadow-lg mr-6 my-2"
         data-aos="fade-right"
@@ -33,6 +35,7 @@
         Working at
         <a
           href="https://saxonglass.com/"
+          rel="noreferrer"
           target="_blank"
           class="text-blue-300 hover:text-blue-400 hover:underline"
           >Saxon Glass</a

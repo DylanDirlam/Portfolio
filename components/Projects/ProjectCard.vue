@@ -7,10 +7,15 @@
   >
     <a
       :href="link"
+      :aria-label="`Link to go to ${title}`"
+      rel="noreferrer"
       target="_blank"
       class="md:w-2/5 h-auto w-full overflow-hidden rounded-t-xl md:rounded-t-none md:rounded-l-xl"
     >
       <img
+        width="800"
+        height="564"
+        alt="Preview of the project"
         :src="getImageUrl()"
         :class="[
           'w-full h-full object-cover object-center rounded-t-xl md:rounded-t-none md:rounded-l-xl overflow-hidden',
@@ -39,6 +44,8 @@
           <a
             v-if="github"
             :href="github"
+            :aria-label="`Link to GitHub for ${title}`"
+            rel="noreferrer"
             target="_blank"
             class="text-gray-300 hover:text-secondary zoom"
           >
@@ -57,6 +64,8 @@
           </a>
           <a
             v-if="link"
+            :aria-label="`Link to the project for ${title}`"
+            rel="noreferrer"
             :href="link"
             target="_blank"
             class="text-gray-300 hover:text-secondary zoom"

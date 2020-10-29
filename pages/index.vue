@@ -8,6 +8,8 @@
       >
         <img
           src="~/assets/self.jpg"
+          width="800"
+          height="800"
           alt="Picture of my face"
           class="mx-auto w-1/2 h-1/2 rounded-full shadow-xl"
           data-aos="fade-right"
