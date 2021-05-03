@@ -39,11 +39,11 @@
           target="_blank"
           class="text-blue-300 hover:text-blue-400 hover:underline"
           >Saxon Glass</a
-        >, I've spent most of my time building in-depth web apps with
-        PHP and Bootstrap to increase the productivity and
-        organization within the factory. They have been highlighted in
-        the <NuxtLink to="/projects">projects</NuxtLink> section. As
-        some side projects at Saxon Glass, I've built the following:
+        >, I spent most of my time building in-depth web apps with PHP
+        and Bootstrap to increase the productivity and organization
+        within the factory. They have been highlighted in the
+        <NuxtLink to="/projects">projects</NuxtLink> section. As some
+        side projects at Saxon Glass, I've built the following:
       </p>
       <Arrow size="small" data-aos="fade-left" data-aos-delay="300">
         C# Windows program that queries a MySQL database and displays
@@ -81,7 +81,7 @@
       >
         <a
           target="_blank"
-          href="/DylanDirlam_Resume_2020.pdf"
+          href="/DylanDirlam_Resume_2021.pdf"
           class="mx-auto px-4 py-2 border-2 text-secondary border-secondary rounded-full text-xl flex items-center zoom"
         >
           View my Resume

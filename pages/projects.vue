@@ -2,6 +2,75 @@
   <div class="flex align-middle h-full text-white py-6">
     <div class="container mx-auto px-4 md:px-0 md:w-4/5">
       <ProjectCard
+        title="Digitell OPUS Platform"
+        link="https://www.digitell.tv/"
+        created-text="Joined project in"
+        year="2021"
+        data-aos="fade-right"
+        image="opus.jpg"
+        highlight
+      >
+        <template #description>
+          <Arrow>
+            Built reports for clients to track their event
+            performances.
+          </Arrow>
+
+          <Arrow>
+            Provided regular software updates and bug fixes in
+            response to employee and client tickets.
+          </Arrow>
+
+          <Arrow>
+            Created REST API endpoints to support client application
+            integrations with the platform.
+          </Arrow>
+        </template>
+        <template #techstack>
+          <HtmlPill />
+          <CssPill />
+          <JavaScriptPill />
+          <BootstrapPill />
+          <PhpPill />
+          <FuelPhpPill />
+          <MySqlPill />
+        </template>
+      </ProjectCard>
+
+      <ProjectCard
+        title="WoWAnalyzer"
+        link="https://www.wowanalyzer.com/"
+        github="https://github.com/WoWAnalyzer/WoWAnalyzer"
+        created-text="Joined project in"
+        year="2020"
+        data-aos="fade-left"
+        image="wowanalyzer.jpg"
+      >
+        <template #description>
+          <Arrow>
+            Converted JavaScript components and files to TypeScript.
+          </Arrow>
+
+          <Arrow>
+            Developed modules to support in-depth analysis of World of
+            Warcraft player performance.
+          </Arrow>
+
+          <Arrow>
+            Provided code reviews for pull requests from new members
+            to the project.
+          </Arrow>
+        </template>
+        <template #techstack>
+          <HtmlPill />
+          <CssPill />
+          <TypeScriptPill />
+          <ReactPill />
+          <JestPill />
+        </template>
+      </ProjectCard>
+
+      <ProjectCard
         title="Saxon Glass Website"
         link="https://www.saxonglass.com/"
         year="2020"
@@ -97,45 +166,6 @@
       </ProjectCard>
 
       <ProjectCard
-        title="Saxon Sheets"
-        year="2016"
-        data-aos="fade-left"
-        image="saxon_sheets.jpg"
-        highlight
-      >
-        <template #description>
-          <Arrow>
-            Web app built as an internal tool to track and manage
-            factory production from receiving, processing, and
-            shipping.
-          </Arrow>
-
-          <Arrow>
-            Tracks employee productivity and tasks that were completed
-            day-to-day; provides reports for daily, weekly, monthly,
-            yearly performance.
-          </Arrow>
-
-          <Arrow>
-            Audits factory functions to ensure everything is done
-            according to procedure. 📝
-          </Arrow>
-
-          <Arrow>
-            Much, much more that cannot fit in this small blurb.
-          </Arrow>
-        </template>
-        <template #techstack>
-          <HtmlPill />
-          <CssPill />
-          <JavaScriptPill />
-          <BootstrapPill />
-          <PhpPill />
-          <MySqlPill />
-        </template>
-      </ProjectCard>
-
-      <ProjectCard
         title="Town of Friendship, NY"
         link="https://www.townoffriendship-ny.com/"
         year="2017"
@@ -165,6 +195,45 @@
           <Arrow>
             Photographed the town and its landmarks to use on the
             site. 📷
+          </Arrow>
+        </template>
+        <template #techstack>
+          <HtmlPill />
+          <CssPill />
+          <JavaScriptPill />
+          <BootstrapPill />
+          <PhpPill />
+          <MySqlPill />
+        </template>
+      </ProjectCard>
+
+      <ProjectCard
+        title="Saxon Sheets"
+        year="2016"
+        data-aos="fade-left"
+        image="saxon_sheets.jpg"
+        highlight
+      >
+        <template #description>
+          <Arrow>
+            Web app built as an internal tool to track and manage
+            factory production from receiving, processing, and
+            shipping.
+          </Arrow>
+
+          <Arrow>
+            Tracks employee productivity and tasks that were completed
+            day-to-day; provides reports for daily, weekly, monthly,
+            yearly performance.
+          </Arrow>
+
+          <Arrow>
+            Audits factory functions to ensure everything is done
+            according to procedure. 📝
+          </Arrow>
+
+          <Arrow>
+            Much, much more that cannot fit in this small blurb.
           </Arrow>
         </template>
         <template #techstack>

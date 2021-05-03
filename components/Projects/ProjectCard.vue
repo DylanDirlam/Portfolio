@@ -8,7 +8,7 @@
     <a
       :href="link"
       :aria-label="`Link to go to ${title}`"
-      rel="noreferrer"
+      rel="noreferrer noopener"
       target="_blank"
       class="md:w-2/5 h-auto w-full overflow-hidden rounded-t-xl md:rounded-t-none md:rounded-l-xl"
     >
@@ -28,7 +28,12 @@
     >
       <div class="flex flex-row items-center">
         <h1 class="text-xl lg:text-3xl flex-auto">
-          <a v-if="link" :href="link">
+          <a
+            v-if="link"
+            :href="link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             {{ title }}
           </a>
           <span v-else>
@@ -37,7 +42,7 @@
           <small
             class="block xl:inline-block text-base xl:text-lg text-gray-400 font-light"
           >
-            Created in {{ year }}
+            {{ createdText }} {{ year }}
           </small>
         </h1>
         <div class="justify-end flex flex-row space-x-2">
@@ -123,6 +128,10 @@ export default {
     image: {
       type: String,
       default: '',
+    },
+    createdText: {
+      type: String,
+      default: 'Created in',
     },
     year: {
       type: String,
