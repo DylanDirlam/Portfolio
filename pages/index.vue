@@ -18,7 +18,7 @@
           class="text-center md:text-left mx-auto w-2/3 mt-auto pt-6 md:pt-0 pb-4 md:pb-12 md:-ml-12 lg:-ml-48 z-10"
         >
           <h1
-            class="pb-2 md:pb-0 text-2xl lg:text-6xl"
+            class="pb-2 md:pb-0 text-2xl xl:text-6xl"
             data-aos="fade-left"
             data-aos-delay="200"
           >
@@ -28,7 +28,7 @@
             >.
           </h1>
           <h2
-            class="text-xl lg:text-3xl"
+            class="text-xl xl:text-3xl"
             data-aos="fade-left"
             data-aos-delay="400"
           >
