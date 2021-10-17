@@ -14,6 +14,18 @@ export default {
     meta: [
       { charset: 'utf-8' },
       {
+        name: 'theme-color',
+        content: '#FBBA37',
+      },
+      {
+        name: 'msapplication-navbutton-color-color',
+        content: '#FBBA37',
+      },
+      {
+        name: 'apple-mobile-web-app-status-bar-style',
+        content: '#FBBA37',
+      },
+      {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1',
       },
