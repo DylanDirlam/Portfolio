@@ -31,58 +31,26 @@
         I have a strong ability to adapt to new environments and pick
         up languages quickly.
       </p>
-      <p class="py-2" data-aos="fade-left" data-aos-delay="250">
-        Working at
-        <a
-          href="https://saxonglass.com/"
-          rel="noreferrer"
-          target="_blank"
-          class="text-blue-300 hover:text-blue-400 hover:underline"
-          >Saxon Glass</a
-        >, I spent most of my time building in-depth web apps with PHP
-        and Bootstrap to increase the productivity and organization
-        within the factory. They have been highlighted in the
-        <NuxtLink to="/projects">projects</NuxtLink> section. As some
-        side projects at Saxon Glass, I've built the following:
-      </p>
-      <Arrow size="small" data-aos="fade-left" data-aos-delay="300">
-        C# Windows program that queries a MySQL database and displays
-        data
-      </Arrow>
-      <Arrow size="small" data-aos="fade-left" data-aos-delay="350">
-        OpenCV Python project that uses a TensorFlow object detection
-        model to find cracks and chips in glass cartridges. Scans ~50
-        cartridges per second with 99.9% accuracy.
-      </Arrow>
-      <Arrow size="small" data-aos="fade-left" data-aos-delay="400">
-        Node.js server that receives temperature readings and uses
-        Twilio API to notify management if temperatures are out of
-        bounds.
-      </Arrow>
       <p class="py-4" data-aos="fade-left" data-aos-delay="450">
         I like to spend my free time growing my abilities as a
         developer by learning new frameworks and languages. Aside from
-        programming, I'm an avid World of Warcraft player, car
-        enthusiast, and enjoy taking road trips. I've travelled from
-        New York to South Dakota, Wyoming, Utah, Maine, and more. Put
-        on some good music and I can drive for hours.
+        programming, I'm an avid gaming, car, and aviation enthusiast.
+        I've travelled from New York to South Dakota, Wyoming, Utah,
+        Maine, and more. Put on some good music and I can drive for
+        hours.
       </p>
       <h2
-        class="text-center text-xl text-secondary"
+        class="text-xl text-secondary"
         data-aos="fade-up"
         data-aos-delay="500"
       >
         I'm always looking for new opportunities, let's get in touch!
       </h2>
-      <div
-        class="flex w-full mt-4"
-        data-aos="fade-up"
-        data-aos-delay="500"
-      >
+      <div class="flex mt-4" data-aos="fade-up" data-aos-delay="500">
         <a
           target="_blank"
           href="/DylanDirlam_Resume_2021.pdf"
-          class="mx-auto px-4 py-2 border-2 text-secondary border-secondary rounded-full text-xl flex items-center zoom"
+          class="px-4 py-2 border-2 text-secondary border-secondary rounded-full text-xl flex items-center zoom"
         >
           View my Resume
           <svg

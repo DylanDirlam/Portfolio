@@ -2,7 +2,7 @@
   <div class="flex align-middle h-full text-white py-6">
     <div class="container mx-auto px-4 md:px-0 md:w-4/5">
       <ProjectCard
-        title="Digitell OPUS Platform"
+        title="Digitell DX Platform"
         link="https://www.digitell.tv/"
         created-text="Joined project in"
         year="2021"
@@ -17,8 +17,13 @@
           </Arrow>
 
           <Arrow>
-            Provided regular software updates and bug fixes in
-            response to employee and client tickets.
+            Created tools for conference attendees to network and
+            connect.
+          </Arrow>
+
+          <Arrow>
+            Created tools to allow conference exhibitors to showcase
+            their virtual booths.
           </Arrow>
 
           <Arrow>
