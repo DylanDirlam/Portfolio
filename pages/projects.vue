@@ -2,6 +2,40 @@
   <div class="flex align-middle h-full text-white py-6">
     <div class="container mx-auto px-4 md:px-0 md:w-4/5">
       <ProjectCard
+        title="Municipality Management"
+        link="https://cmm.compassweb.dev/"
+        created-text="Released "
+        year="Dec 2021"
+        data-aos="fade-left"
+        image="cmm.jpg"
+        highlight
+      >
+        <template #description>
+          <Arrow>
+            Tool created for site administrators to be able to manage
+            many sites through a convenient portal.
+          </Arrow>
+
+          <Arrow>
+            Allows site managers to upload notices, minutes, agendas,
+            resolutions, and other files required by law.
+          </Arrow>
+
+          <Arrow>
+            Utilizes Amazon AWS S3 buckets to store and serve files.
+          </Arrow>
+
+          <Arrow>
+            Over 50 municipal organizations using the platform!
+          </Arrow>
+        </template>
+        <template #techstack>
+          <InertiaPill />
+          <ReactPill />
+          <LaravelPill />
+        </template>
+      </ProjectCard>
+      <ProjectCard
         title="Digitell DX Platform"
         link="https://www.digitell.tv/"
         created-text="Joined project in"
@@ -32,9 +66,6 @@
           </Arrow>
         </template>
         <template #techstack>
-          <HtmlPill />
-          <CssPill />
-          <JavaScriptPill />
           <BootstrapPill />
           <PhpPill />
           <FuelPhpPill />
@@ -67,8 +98,6 @@
           </Arrow>
         </template>
         <template #techstack>
-          <HtmlPill />
-          <CssPill />
           <TypeScriptPill />
           <ReactPill />
           <JestPill />
@@ -94,9 +123,6 @@
           </Arrow>
         </template>
         <template #techstack>
-          <HtmlPill />
-          <CssPill />
-          <JavaScriptPill />
           <VuePill />
           <NuxtjsPill />
           <TailwindCssPill />
@@ -120,9 +146,6 @@
           <Arrow> It's the site you're on right now! 🥳 </Arrow>
         </template>
         <template #techstack>
-          <HtmlPill />
-          <CssPill />
-          <JavaScriptPill />
           <VuePill />
           <NuxtjsPill />
           <TailwindCssPill />
@@ -160,9 +183,6 @@
           </Arrow>
         </template>
         <template #techstack>
-          <HtmlPill />
-          <CssPill />
-          <JavaScriptPill />
           <BootstrapPill />
           <PhpPill />
           <TwilioPill />
@@ -203,9 +223,6 @@
           </Arrow>
         </template>
         <template #techstack>
-          <HtmlPill />
-          <CssPill />
-          <JavaScriptPill />
           <BootstrapPill />
           <PhpPill />
           <MySqlPill />
@@ -242,9 +259,6 @@
           </Arrow>
         </template>
         <template #techstack>
-          <HtmlPill />
-          <CssPill />
-          <JavaScriptPill />
           <BootstrapPill />
           <PhpPill />
           <MySqlPill />
@@ -282,9 +296,6 @@
           </Arrow>
         </template>
         <template #techstack>
-          <HtmlPill />
-          <CssPill />
-          <JavaScriptPill />
           <BootstrapPill />
           <PhpPill />
           <MySqlPill />
