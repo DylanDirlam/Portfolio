@@ -46,6 +46,13 @@
       >
         <template #description>
           <Arrow>
+            Rewrote image manipulation to allow users to crop and
+            rotate their images in the browser. Resizing and is done
+            using JavaScript within the browser before being sent to
+            the server, thus saving time and resources.
+          </Arrow>
+
+          <Arrow>
             Built reports for clients to track their event
             performances.
           </Arrow>

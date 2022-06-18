@@ -35,9 +35,8 @@
         I like to spend my free time growing my abilities as a
         developer by learning new frameworks and languages. Aside from
         programming, I'm an avid gaming, car, and aviation enthusiast.
-        I've travelled from New York to South Dakota, Wyoming, Utah,
-        Maine, and more. Put on some good music and I can drive for
-        hours.
+        I am currently working on acquiring my Private Pilot's
+        Certificate!
       </p>
       <h2
         class="text-xl text-secondary"
@@ -49,7 +48,7 @@
       <div class="flex mt-4" data-aos="fade-up" data-aos-delay="500">
         <a
           target="_blank"
-          href="/DylanDirlam_Resume_2021.pdf"
+          href="/DylanDirlam_Resume_2022.pdf"
           class="px-4 py-2 border-2 text-secondary border-secondary rounded-full text-xl flex items-center zoom"
         >
           View my Resume
