@@ -47,7 +47,7 @@
         <template #description>
           <Arrow>
             Rewrote image manipulation to allow users to crop and
-            rotate their images in the browser. Resizing and is done
+            rotate their images in the browser. Resizing is done using
             using JavaScript within the browser before being sent to
             the server, thus saving time and resources.
           </Arrow>
